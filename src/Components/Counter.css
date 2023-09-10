@@ -1,0 +1,39 @@
+.box{
+    margin: auto;
+    background-color:  #ff4957;
+    width: 30%;
+    height: 50vh;
+    text-align: center;
+    position: relative;
+    transform: translate(0%, 50%);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.value{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.btn{
+    padding: 20px 15px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
